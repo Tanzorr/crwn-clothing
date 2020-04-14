@@ -2,19 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0840e0ef-52cb-4e32-b410-e80f8b6cd50a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/directory/directory.style.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/menu-item/menu-item.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/menu-item/menu-item.styles.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/homepage/homepage.component.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/homepage/homepage.styles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/homepage.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/directory/directory.component.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/directory/directory.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/directory/directory.component.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/menu-item/menu-item.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/menu-item/menu-item.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,6 +78,14 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="651" y="166" width="357" height="602" key="RollbackChangesDialog" timestamp="1586882291936">
+      <screen x="70" y="27" width="1530" height="873" />
+    </state>
+    <state x="651" y="166" width="357" height="602" key="RollbackChangesDialog/70.27.1530.873@70.27.1530.873" timestamp="1586882291936" />
+    <state x="170" y="127" width="1330" height="673" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1586896866916">
+      <screen x="70" y="27" width="1530" height="873" />
+    </state>
+    <state x="170" y="127" width="1330" height="673" key="com.intellij.history.integration.ui.views.FileHistoryDialog/70.27.1530.873@70.27.1530.873" timestamp="1586896866916" />
     <state x="471" y="330" key="com.intellij.ide.util.TipDialog" timestamp="1586869620721">
       <screen x="70" y="27" width="1530" height="873" />
     </state>
