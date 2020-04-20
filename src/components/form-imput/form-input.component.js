@@ -4,10 +4,10 @@ import "./form-input.style.scss"
 
 const FormInput=({handleChange, label,...otherProps})=>(
     <div className="group">
-        <input className="form-input" onChange={handleChange} {...otherProps} type="text"/>
+        <input className="form-input" onChange={handleChange} {...otherProps} />
         {
             label ?
-                (<label htmlFor="" className={`${otherProps.value.length ?'shrink':''}form-imput`}>
+                (<label htmlFor="" className={`${otherProps.value ?'shrink':''}form-imput`}>
                     {label}
                 </label>)
                 :null

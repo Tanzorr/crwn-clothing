@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import "./sign-in.style.scss"
 import FormInput from "../form-imput/form-input.component";
 import CustomButton from "../custom-button/custom-button.component";
-import {signInWithCoogle} from "../../firebase/firebase.utils";
+import {auth, signInWithCoogle} from "../../firebase/firebase.utils";
 
 
 class SignInComponent extends Component {
