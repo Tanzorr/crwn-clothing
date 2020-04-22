@@ -1,5 +1,12 @@
 export  const CartActionTypes = {
-    TOGGLE_CART_HIDDEN:'TOGGLE_CART_HIDDEN'
+    TOGGLE_CART_HIDDEN:'TOGGLE_CART_HIDDEN',
+    ADD_ITEM:"ADD_ITEM"
 }
+
+
+export const addItem =item=>({
+    type:CartActionTypes.ADD_ITEM,
+    payload:item
+})
 
 export default CartActionTypes

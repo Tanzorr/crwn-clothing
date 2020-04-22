@@ -2,18 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0840e0ef-52cb-4e32-b410-e80f8b6cd50a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/cart-dropdown/cart-dropdown.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/cart-dropdown/cart-dropdown.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/cart-icon/cart-icon.component.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/cart-icon/cart-icon.style.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/cart/cart.actions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/cart/cart.reducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/cart/cart.types.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/cart/cart.utils.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/header.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/header.component.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/root-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/root-reducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/user/user.types.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/user/user.types.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/colection-item/colection-item.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/colection-item/colection-item.component.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/colection-item/colection-item.style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/colection-item/colection-item.style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/custom-button/custom-button.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/custom-button/custom-button.component.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/custom-button/custom-button.style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/custom-button/custom-button.style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/priview-collection/collections-priview.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/priview-collection/collections-priview.component.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/cart/cart.reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/cart/cart.reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/cart/cart.types.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/cart/cart.types.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +80,7 @@
       <workItem from="1587208136648" duration="13095000" />
       <workItem from="1587377842723" duration="6326000" />
       <workItem from="1587392837753" duration="6106000" />
-      <workItem from="1587492319555" duration="13615000" />
+      <workItem from="1587492319555" duration="18597000" />
     </task>
     <servers />
   </component>
@@ -115,9 +112,9 @@
       <screen x="70" y="27" width="1530" height="873" />
     </state>
     <state x="70" y="382" width="620" height="518" key="find.popup/70.27.1530.873@70.27.1530.873" timestamp="1587388671946" />
-    <state x="478" y="221" width="672" height="678" key="search.everywhere.popup" timestamp="1586860673629">
+    <state x="478" y="221" width="672" height="678" key="search.everywhere.popup" timestamp="1587560697445">
       <screen x="70" y="27" width="1530" height="873" />
     </state>
-    <state x="478" y="221" width="672" height="678" key="search.everywhere.popup/70.27.1530.873@70.27.1530.873" timestamp="1586860673629" />
+    <state x="478" y="221" width="672" height="678" key="search.everywhere.popup/70.27.1530.873@70.27.1530.873" timestamp="1587560697445" />
   </component>
 </project>
