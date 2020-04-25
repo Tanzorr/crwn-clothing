@@ -2,13 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0840e0ef-52cb-4e32-b410-e80f8b6cd50a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/collections-overview/collection-overview.comopnent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/collections-overview/collection-overview.style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/collection/colection.style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/collection/collection.component.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/directory/directory.reducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/directory/directory.selectors.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/shop/shop.reducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/shop/shop.selector.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/checkout-item/checkout-item.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/checkout-item/checkout-item.component.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/checkout-item/checkout-item.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/checkout-item/checkout-item.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/cart/cart.actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/cart/cart.actions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/cart/cart.reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/cart/cart.reducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/cart/cart.types.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/cart/cart.types.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/cart/cart.utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/cart/cart.utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/colection-item/colection-item.style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/colection-item/colection-item.style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/directory/directory.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/directory/directory.component.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/shop/shop.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/shop/shop.component.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/shop/shop.data.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/shop/shop.data.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/root-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/root-reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/store.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,13 +34,19 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="SCSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
   </component>
   <component name="ProjectId" id="1aUdHzQ4AllIXSXJP5FGDD3lsHF" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -47,10 +66,12 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/redux/shop" />
       <recent name="$PROJECT_DIR$/src/redux" />
       <recent name="$PROJECT_DIR$/src/redux/user" />
       <recent name="$PROJECT_DIR$/src/pages/homepage" />
@@ -79,7 +100,7 @@
       <workItem from="1587377842723" duration="6326000" />
       <workItem from="1587392837753" duration="6106000" />
       <workItem from="1587492319555" duration="34174000" />
-      <workItem from="1587650801807" duration="4040000" />
+      <workItem from="1587650801807" duration="26403000" />
     </task>
     <servers />
   </component>
@@ -103,10 +124,10 @@
       <screen x="70" y="27" width="1530" height="873" />
     </state>
     <state x="651" y="166" width="357" height="602" key="RollbackChangesDialog/70.27.1530.873@70.27.1530.873" timestamp="1586882291936" />
-    <state x="170" y="127" width="1330" height="673" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1586896866916">
+    <state x="170" y="127" width="1330" height="673" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1587820593961">
       <screen x="70" y="27" width="1530" height="873" />
     </state>
-    <state x="170" y="127" width="1330" height="673" key="com.intellij.history.integration.ui.views.FileHistoryDialog/70.27.1530.873@70.27.1530.873" timestamp="1586896866916" />
+    <state x="170" y="127" width="1330" height="673" key="com.intellij.history.integration.ui.views.FileHistoryDialog/70.27.1530.873@70.27.1530.873" timestamp="1587820593961" />
     <state x="471" y="330" key="com.intellij.ide.util.TipDialog" timestamp="1586869620721">
       <screen x="70" y="27" width="1530" height="873" />
     </state>
@@ -115,9 +136,9 @@
       <screen x="70" y="27" width="1530" height="873" />
     </state>
     <state x="70" y="382" width="620" height="518" key="find.popup/70.27.1530.873@70.27.1530.873" timestamp="1587388671946" />
-    <state x="478" y="221" width="672" height="678" key="search.everywhere.popup" timestamp="1587560697445">
+    <state x="478" y="221" width="672" height="678" key="search.everywhere.popup" timestamp="1587821198352">
       <screen x="70" y="27" width="1530" height="873" />
     </state>
-    <state x="478" y="221" width="672" height="678" key="search.everywhere.popup/70.27.1530.873@70.27.1530.873" timestamp="1587560697445" />
+    <state x="478" y="221" width="672" height="678" key="search.everywhere.popup/70.27.1530.873@70.27.1530.873" timestamp="1587821198352" />
   </component>
 </project>

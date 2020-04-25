@@ -4,8 +4,9 @@ import {clearItemFromCart,addItem,removeItem} from "../../redux/cart/cart.action
 import "./checkout-item.scss"
 
 const CheckoutItem =({cartItem,clearItem, addItem, removeItem})=> {
+
     const {name, imageUrl, price, quantity}=cartItem
-    console.log("cart Item",cartItem)
+
     return <div className="checkout-item">
                 <div className="image-container">
                     <img src={imageUrl} alt="item"/>
