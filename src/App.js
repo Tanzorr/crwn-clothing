@@ -2,16 +2,16 @@ import React from 'react';
 import {BrowserRouter, Route, Redirect} from "react-router-dom";
 import './App.css';
 import HomePage from "./pages/homepage/homepage.component";
-import ShopComponent from "./pages/shop/shop.component";
+import ShopPage from "./pages/shop/shop.page.component";
 import Header from "./components/header/header.component";
 import SignInAndSignUpPage from "./pages/sign-in-and-sign-up/sign-in-and-sign-up.component";
-import {auth, createUserProfileDocument} from "./firebase/firebase.utils";
+import {auth, createUserProfileDocument, addCollectionAndDocuments} from "./firebase/firebase.utils";
 import {connect} from "react-redux";
 import {setCurrentUser} from "./redux/user.actions";
 import {selectCurrentUser} from "./redux/user/user.selector.";
 import {createStructuredSelector} from "reselect";
 import CheckoutPage from "./pages/checkout/checkout.component";
-
+import {selectCollectionsForPerview} from "./redux/shop/shop.selector";
 
 class App extends React.Component{
 
@@ -25,7 +25,9 @@ class App extends React.Component{
     componentDidMount() {
         const {setCurrentUser} = this.props
 
-            this.unsubscribeFromAuth = auth.onAuthStateChanged(async userAuth=> {
+        console.log("App props",this.props)
+
+        this.unsubscribeFromAuth = auth.onAuthStateChanged(async userAuth=> {
            setCurrentUser({currentUser: userAuth})
            if (userAuth) {
                const userRef = await createUserProfileDocument(userAuth)
@@ -36,6 +38,10 @@ class App extends React.Component{
                  })
                })
            }
+
+              // addCollectionAndDocuments('collections',collectionsArray.map(({title, items})=>({title,items})))
+
+
        })
     }
 
@@ -51,7 +57,7 @@ class App extends React.Component{
                 <Header/>
                 <div>
                     <Route exact  path={`/`} component={HomePage}/>
-                    <Route  path={`/shop`} component={ShopComponent}/>
+                    <Route  path={`/shop`} component={ShopPage}/>
                     <Route exact path={`/checkout`} component={CheckoutPage}/>
                     <Route exact path='/signin'
                             render={()=>
@@ -71,13 +77,15 @@ class App extends React.Component{
 }
 
 const mapStateToProps = createStructuredSelector({
-    currentUser: selectCurrentUser
+    currentUser: selectCurrentUser,
+
 
 })
 
 
 const mapDispatchToProps = dispatch =>({
-    setCurrentUser: user=> dispatch(setCurrentUser(user))
+    setCurrentUser: user=> dispatch(setCurrentUser(user)),
+
 })
 
 

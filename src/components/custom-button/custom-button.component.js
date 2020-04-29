@@ -1,12 +1,12 @@
 import React  from "react";
 
-import "./custom-button.style.scss"
+import {CustomButtonContainer} from "./custom-button.styles";
 
 
-const CustomButton = ({children, isCoogleSignIn,inverted, ...otherProps})=>(
-    <button className={`${inverted ? 'inverted':''} custom-button`}{...otherProps}>
+const CustomButton = ({children,...props})=>(
+    <CustomButtonContainer {...props}>
         {children}
-    </button>
+    </CustomButtonContainer>
 )
 
 export default CustomButton

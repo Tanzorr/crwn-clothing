@@ -9,13 +9,14 @@ export const  selectCollections = createSelector(
 
 export const selectCollectionsForPerview = createSelector(
     [selectCollections],
-    collections=>Object.keys(collections).map(key=>collections[key])
+    collections=>
+        collections ? Object.keys(collections).map(key=>collections[key]) :[]
 )
 
 export const selectCollection = (collectionUlParam)=>{
       //  const iD =COLLECTION_ID_MAP[collectionUlParam]
         return  createSelector(
             [selectCollections],
-            collections=>collections[collectionUlParam]
+            collections=>(collections ? collections[collectionUlParam] :null)
         )
 }

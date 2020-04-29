@@ -1,6 +1,6 @@
 import React from "react";
 import "./colection-priview.style.scss"
-import CollectionItem from "../colection-item/colection-item.component";
+import CollectionItem from "../collection-item/collection-item.component";
 
 
 const ColectionsPriview =({title, items})=>(

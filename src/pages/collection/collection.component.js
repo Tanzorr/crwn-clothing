@@ -2,13 +2,15 @@ import React from "react";
 import {connect} from 'react-redux'
 import "./collection.component"
 import {selectCollection} from "../../redux/shop/shop.selector";
-import CollectionItem from "../../components/colection-item/colection-item.component";
+import CollectionItem from "../../components/collection-item/collection-item.component";
 import "./colection.style.scss"
 
 
 const CollectionPage =({collection})=>{
     console.log("Collections component",collection)
-    const {title,items}=collection;
+
+        const {title,items}=collection;
+
     return  <div className="collection-page">
                 <h2 className='title'>{title}</h2>
                 <div className="items">
@@ -17,6 +19,7 @@ const CollectionPage =({collection})=>{
                     )}
                 </div>
             </div>
+
 }
 
 
