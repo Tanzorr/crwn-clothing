@@ -20,3 +20,8 @@ export const selectCollection = (collectionUlParam)=>{
             collections=>(collections ? collections[collectionUlParam] :null)
         )
 }
+
+export const selectIsCollectionFetching = createSelector(
+    [selectShop],
+    shop=>shop.isFetching
+)
