@@ -2,14 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0840e0ef-52cb-4e32-b410-e80f8b6cd50a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/pages/collection/collection-overview.container.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/collection/collection.container.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/shop/shop.sagas.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/shop/shop.page.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/shop/shop.page.component.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/shop/shop.actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/shop/shop.actions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/shop/shop.reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/shop/shop.reducer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/shop/shop.selector.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/shop/shop.selector.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/shop/shop.type.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/shop/shop.type.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/store.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,7 +47,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/laravelVue/higher-order-components-explained" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Desktop/laravelVue/higher-order-components-explained" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -136,9 +136,9 @@
       <screen x="70" y="27" width="1530" height="873" />
     </state>
     <state x="464" y="293" key="run.anything.popup/70.27.1530.873@70.27.1530.873" timestamp="1588011748628" />
-    <state x="478" y="221" width="672" height="678" key="search.everywhere.popup" timestamp="1588099112969">
+    <state x="478" y="221" width="672" height="678" key="search.everywhere.popup" timestamp="1588328053249">
       <screen x="70" y="27" width="1530" height="873" />
     </state>
-    <state x="478" y="221" width="672" height="678" key="search.everywhere.popup/70.27.1530.873@70.27.1530.873" timestamp="1588099112969" />
+    <state x="478" y="221" width="672" height="678" key="search.everywhere.popup/70.27.1530.873@70.27.1530.873" timestamp="1588328053249" />
   </component>
 </project>
