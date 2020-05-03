@@ -1,6 +1,6 @@
 import React from "react";
 import {connect} from 'react-redux'
-import {addItem} from "../../redux/cart/cart.types";
+import {addItem} from "../../redux/cart/cart.actions";
 import {
     AddButton,
     CollectionFooterContainer,
