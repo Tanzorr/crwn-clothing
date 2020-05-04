@@ -37,16 +37,18 @@ export const signOutFaulare =(error)=>({
     payload:error
 })
 
-export const signUpStart =()=>({
-    type:UserActionTypes.SICN_UP_START,
+export const signUpStart =(userCredentials)=>({
+    type:UserActionTypes.SIGN_UP_START,
+    payload:userCredentials
 })
 
-export const signUpSuccess =()=>({
-    type:UserActionTypes.SICN_UP_SUCCESS,
+export const signUpSuccess =({user, additionalData})=>({
+    type:UserActionTypes.SIGN_UP_SUCCESS,
+    payload:{user, additionalData}
 })
 
 export const signUpFaulare =(error)=>({
-    type:UserActionTypes.SICN_UP_FAULURE,
+    type:UserActionTypes.SIGN_UP_FAULURE,
     payload:error
 })
 

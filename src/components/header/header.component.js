@@ -1,8 +1,6 @@
 import React from "react";
 import {createStructuredSelector} from "reselect";
-import {Link} from "react-router-dom";
 import {ReactComponent as Logo} from "../../assets/original.svg";
-import {auth} from "../../firebase/firebase.utils";
 import {connect} from 'react-redux'
 import CartIcon from "../cart-icon/cart-icon.component";
 import CartDropdown from "../cart-dropdown/cart-dropdown";
@@ -13,8 +11,6 @@ import {signOutStart} from "../../redux/user/user.actions";
 
 
 const Header =({currentUser,hidden, signOutStart})=>{
-    console.log("current User",currentUser)
-
     return<HeaderContainer>
         <LogoContainer to="/" >
         <Logo className='logo'/>

@@ -2,22 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0840e0ef-52cb-4e32-b410-e80f8b6cd50a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/redux/cart/cart.sagas.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/root-saga.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/user/user.sagas.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/collection-item/collection-item.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/collection-item/collection-item.component.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/cart-dropdown/cart-dropdown.styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/cart-dropdown/cart-dropdown.styles.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/header/header.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/header.component.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/sign-in/sign-in.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sign-in/sign-in.component.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/firebase/firebase.utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/firebase/firebase.utils.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/cart/cart.actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/cart/cart.actions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/cart/cart.reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/cart/cart.reducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/cart/cart.types.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/cart/cart.types.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/shop/shop.sagas.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/shop/shop.sagas.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/store.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/user.actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/user/user.actions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/sign-up/sign-up.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sign-up/sign-up.component.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/collection/collection.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/collection/collection.component.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/shop/shop.page.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/shop/shop.page.component.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/user/user.actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/user/user.actions.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/user/user.reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/user/user.reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/user/user.sagas.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/user/user.sagas.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/user/user.types.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/user/user.types.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -102,7 +97,7 @@
       <workItem from="1588004658758" duration="23016000" />
       <workItem from="1588107273595" duration="2676000" />
       <workItem from="1588352914749" duration="12713000" />
-      <workItem from="1588494944792" duration="5571000" />
+      <workItem from="1588494944792" duration="19924000" />
     </task>
     <servers />
   </component>
