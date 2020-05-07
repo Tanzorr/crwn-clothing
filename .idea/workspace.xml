@@ -2,18 +2,95 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0840e0ef-52cb-4e32-b410-e80f8b6cd50a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/cart-dropdown/cart-dropdown.styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/cart-dropdown/cart-dropdown.styles.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/header.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/header.component.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/sign-in/sign-in.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sign-in/sign-in.component.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/sign-up/sign-up.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sign-up/sign-up.component.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/collection/collection.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/collection/collection.component.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/shop/shop.page.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/shop/shop.page.component.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/user/user.actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/user/user.actions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/user/user.reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/user/user.reducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/user/user.sagas.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/user/user.sagas.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/user/user.types.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/user/user.types.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/original.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/original.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/shopping-bag.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/cart-dropdown/cart-dropdown.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/cart-dropdown/cart-dropdown.styles.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/cart-icon/cart-icon.component.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/cart-icon/cart-icon.style.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/cart-item/cart-item.component.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/cart-item/cart-item.style.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/checkout-item/checkout-item.component.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/checkout-item/checkout-item.styles.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/collection-item/collection-item.component.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/collection-item/collection-item.styles.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/collections-overview/collection-overview.comopnent.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/collections-overview/collection-overview.style.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/custom-button/custom-button.component.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/custom-button/custom-button.styles.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/directory/directory.component.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/directory/directory.style.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/form-imput/form-input.component.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/form-imput/form-input.style.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/header.component.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/header.styles.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/menu-item/menu-item.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/menu-item/menu-item.styles.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/priview-collection/colection-priview.style.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/priview-collection/collections-priview.component.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/sign-in/sign-in.component.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/sign-in/sign-in.style.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/sign-up/sign-up.component.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/sign-up/sign-up.styles.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/stripe-button/stripe-button.component.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/with-spiner/with-spiner.component.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/with-spiner/with-spiner.styles.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/firebase/firebase.utils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/checkout/checkout.component.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/checkout/checkout.styles.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/collection/colection.style.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/collection/collection-overview.container.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/collection/collection.component.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/collection/collection.container.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/homepage/homepage.component.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/homepage/homepage.styles.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/homepage/homepage.styles.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/shop/shop.page.component.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/sign-in-and-sign-up/sign-in-and-sign-up.component.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/sign-in-and-sign-up/sign-in-and-sign-up.style.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/cart/cart.actions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/cart/cart.reducer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/cart/cart.sagas.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/cart/cart.selectors.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/cart/cart.types.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/cart/cart.utils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/directory/directory.reducer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/directory/directory.selectors.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/root-reducer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/root-saga.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/shop/shop.actions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/shop/shop.reducer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/shop/shop.sagas.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/shop/shop.selector.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/shop/shop.type.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/store.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/user/user.actions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/user/user.reducer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/user/user.sagas.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/user/user.selector..js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/user/user.types.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/serviceWorker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/setupTests.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +127,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Desktop/react/redux-saga-take-takelatest-takeevery" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/react/lesson-31" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -97,7 +174,10 @@
       <workItem from="1588004658758" duration="23016000" />
       <workItem from="1588107273595" duration="2676000" />
       <workItem from="1588352914749" duration="12713000" />
-      <workItem from="1588494944792" duration="19924000" />
+      <workItem from="1588494944792" duration="21999000" />
+      <workItem from="1588785326000" duration="1814000" />
+      <workItem from="1588857268816" duration="5820000" />
+      <workItem from="1588868131248" duration="4170000" />
     </task>
     <servers />
   </component>
@@ -109,10 +189,26 @@
       <screen x="70" y="27" width="1530" height="873" />
     </state>
     <state x="439" y="444" width="721" height="452" key="EditFileWatcherDialog/70.27.1530.873@70.27.1530.873" timestamp="1587544771923" />
-    <state x="618" y="221" width="424" height="491" key="FileChooserDialogImpl" timestamp="1588350697474">
+    <state x="618" y="221" width="424" height="491" key="FileChooserDialogImpl" timestamp="1588854545161">
       <screen x="70" y="27" width="1530" height="873" />
     </state>
-    <state x="618" y="221" width="424" height="491" key="FileChooserDialogImpl/70.27.1530.873@70.27.1530.873" timestamp="1588350697474" />
+    <state x="618" y="221" width="424" height="491" key="FileChooserDialogImpl/70.27.1530.873@70.27.1530.873" timestamp="1588854545161" />
+    <state width="1394" height="95" key="GridCell.Tab.0.bottom" timestamp="1588858434678">
+      <screen x="70" y="27" width="1530" height="873" />
+    </state>
+    <state width="1394" height="95" key="GridCell.Tab.0.bottom/70.27.1530.873@70.27.1530.873" timestamp="1588858434678" />
+    <state width="1394" height="95" key="GridCell.Tab.0.center" timestamp="1588858434677">
+      <screen x="70" y="27" width="1530" height="873" />
+    </state>
+    <state width="1394" height="95" key="GridCell.Tab.0.center/70.27.1530.873@70.27.1530.873" timestamp="1588858434677" />
+    <state width="1394" height="95" key="GridCell.Tab.0.left" timestamp="1588858434677">
+      <screen x="70" y="27" width="1530" height="873" />
+    </state>
+    <state width="1394" height="95" key="GridCell.Tab.0.left/70.27.1530.873@70.27.1530.873" timestamp="1588858434677" />
+    <state width="1394" height="95" key="GridCell.Tab.0.right" timestamp="1588858434677">
+      <screen x="70" y="27" width="1530" height="873" />
+    </state>
+    <state width="1394" height="95" key="GridCell.Tab.0.right/70.27.1530.873@70.27.1530.873" timestamp="1588858434677" />
     <state x="656" y="608" width="399" height="156" key="NewPhpFileDialog" timestamp="1588077677378">
       <screen x="70" y="27" width="1530" height="873" />
     </state>
