@@ -2,18 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0840e0ef-52cb-4e32-b410-e80f8b6cd50a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/spiner/spiner.component.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/spiner/spiner.styles.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/global.styles.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/cart-dropdown/cart-dropdown.styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/cart-dropdown/cart-dropdown.styles.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/header.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/header.component.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/sign-in/sign-in.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sign-in/sign-in.component.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/sign-up/sign-up.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sign-up/sign-up.component.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/collection/collection.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/collection/collection.component.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/shop/shop.page.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/shop/shop.page.component.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/user/user.actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/user/user.actions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/user/user.reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/user/user.reducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/user/user.sagas.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/user/user.sagas.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/user/user.types.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/user/user.types.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/collection-item/collection-item.styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/collection-item/collection-item.styles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/header.styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/header.styles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/menu-item/menu-item.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/menu-item/menu-item.styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/priview-collection/colection-priview.style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/priview-collection/colection-priview.style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/with-spiner/with-spiner.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/with-spiner/with-spiner.component.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/with-spiner/with-spiner.styles.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +49,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Desktop/react/redux-saga-take-takelatest-takeevery" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -63,6 +62,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components" />
       <recent name="$PROJECT_DIR$/src/redux/user" />
       <recent name="$PROJECT_DIR$/src/redux/shop" />
       <recent name="$PROJECT_DIR$/src/redux" />
@@ -98,6 +98,18 @@
       <workItem from="1588107273595" duration="2676000" />
       <workItem from="1588352914749" duration="12713000" />
       <workItem from="1588494944792" duration="19924000" />
+      <workItem from="1589524712491" duration="633000" />
+      <workItem from="1589651917994" duration="640000" />
+      <workItem from="1589654497615" duration="603000" />
+      <workItem from="1589710738107" duration="97000" />
+      <workItem from="1589710929182" duration="599000" />
+      <workItem from="1589712747750" duration="231000" />
+      <workItem from="1589811943041" duration="599000" />
+      <workItem from="1589814509180" duration="1539000" />
+      <workItem from="1589821721831" duration="1787000" />
+      <workItem from="1589823658106" duration="1022000" />
+      <workItem from="1589880775161" duration="1785000" />
+      <workItem from="1589882588163" duration="1468000" />
     </task>
     <servers />
   </component>
@@ -109,10 +121,10 @@
       <screen x="70" y="27" width="1530" height="873" />
     </state>
     <state x="439" y="444" width="721" height="452" key="EditFileWatcherDialog/70.27.1530.873@70.27.1530.873" timestamp="1587544771923" />
-    <state x="618" y="221" width="424" height="491" key="FileChooserDialogImpl" timestamp="1588350697474">
+    <state x="618" y="221" width="424" height="491" key="FileChooserDialogImpl" timestamp="1589712976214">
       <screen x="70" y="27" width="1530" height="873" />
     </state>
-    <state x="618" y="221" width="424" height="491" key="FileChooserDialogImpl/70.27.1530.873@70.27.1530.873" timestamp="1588350697474" />
+    <state x="618" y="221" width="424" height="491" key="FileChooserDialogImpl/70.27.1530.873@70.27.1530.873" timestamp="1589712976214" />
     <state x="656" y="608" width="399" height="156" key="NewPhpFileDialog" timestamp="1588077677378">
       <screen x="70" y="27" width="1530" height="873" />
     </state>
@@ -133,17 +145,17 @@
       <screen x="70" y="27" width="1530" height="873" />
     </state>
     <state x="471" y="330" key="com.intellij.ide.util.TipDialog/70.27.1530.873@70.27.1530.873" timestamp="1586869620721" />
-    <state x="70" y="330" width="620" height="570" key="find.popup" timestamp="1588063063863">
+    <state x="70" y="330" width="620" height="570" key="find.popup" timestamp="1589823828004">
       <screen x="70" y="27" width="1530" height="873" />
     </state>
-    <state x="70" y="330" width="620" height="570" key="find.popup/70.27.1530.873@70.27.1530.873" timestamp="1588063063863" />
+    <state x="70" y="330" width="620" height="570" key="find.popup/70.27.1530.873@70.27.1530.873" timestamp="1589823828004" />
     <state x="464" y="293" key="run.anything.popup" timestamp="1588011748628">
       <screen x="70" y="27" width="1530" height="873" />
     </state>
     <state x="464" y="293" key="run.anything.popup/70.27.1530.873@70.27.1530.873" timestamp="1588011748628" />
-    <state x="478" y="221" width="672" height="678" key="search.everywhere.popup" timestamp="1588409978573">
+    <state x="478" y="221" width="672" height="678" key="search.everywhere.popup" timestamp="1589823127469">
       <screen x="70" y="27" width="1530" height="873" />
     </state>
-    <state x="478" y="221" width="672" height="678" key="search.everywhere.popup/70.27.1530.873@70.27.1530.873" timestamp="1588409978573" />
+    <state x="478" y="221" width="672" height="678" key="search.everywhere.popup/70.27.1530.873@70.27.1530.873" timestamp="1589823127469" />
   </component>
 </project>
