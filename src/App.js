@@ -1,4 +1,4 @@
-import React,{useEffect, lazy,Suspense} from 'react';
+import React,{useEffect, lazy, Suspense} from 'react';
 import {BrowserRouter, Route, Redirect} from "react-router-dom";
 import './App.css';
 import Header from "./components/header/header.component";
@@ -9,6 +9,7 @@ import {createStructuredSelector} from "reselect";
 import CheckoutPage from "./pages/checkout/checkout.component";
 import {GlobalStyle} from "./global.styles";
 import Spinner from "./components/spiner/spiner.component";
+import ErrorBounderyComponent from "./components/error-boundery/error-boundery.component";
 const HomePage =lazy(()=>import('./pages/homepage/homepage.component'))
 const ShopPage = lazy(()=>import('./pages/shop/shop.page.component'))
 const SignInAndSignUpPage = lazy(()=>import('./pages/sign-in-and-sign-up/sign-in-and-sign-up.component'))
@@ -25,10 +26,10 @@ const App =({checkUserSession,currentUser})=>{
 
 
     return (
-            <div>
+            <>
                 <GlobalStyle/>
                 <Header/>
-                <div>
+
                     <Suspense fallback={Spinner}>
                        <Route exact  path={`/`} component={HomePage}/>
                        <Route  path={`/shop`} component={ShopPage}/>
@@ -44,8 +45,9 @@ const App =({checkUserSession,currentUser})=>{
                             }
                        />
                     </Suspense>
-                </div>
-            </div>
+
+            </>
+
         );
 
 
