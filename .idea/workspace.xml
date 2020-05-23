@@ -4,7 +4,13 @@
     <list default="true" id="0840e0ef-52cb-4e32-b410-e80f8b6cd50a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/cart-item/cart-item.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/cart-item/cart-item.component.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/checkout-item/checkout-item.styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/checkout-item/checkout-item.styles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/collection-item/collection-item.styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/collection-item/collection-item.styles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/header.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/header.component.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/checkout/checkout.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/checkout/checkout.styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/collection/colection.style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/collection/colection.style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/homepage/homepage.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/homepage/homepage.component.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +47,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/react/useMemo-useCallback" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/react/test" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -104,6 +110,11 @@
       <workItem from="1589882588163" duration="1468000" />
       <workItem from="1589899850729" duration="1180000" />
       <workItem from="1589917434947" duration="43000" />
+      <workItem from="1589965395670" duration="1262000" />
+      <workItem from="1589984334069" duration="783000" />
+      <workItem from="1590046961318" duration="102000" />
+      <workItem from="1590221796381" duration="1297000" />
+      <workItem from="1590223560064" duration="1783000" />
     </task>
     <servers />
   </component>
@@ -115,10 +126,10 @@
       <screen x="70" y="27" width="1530" height="873" />
     </state>
     <state x="439" y="444" width="721" height="452" key="EditFileWatcherDialog/70.27.1530.873@70.27.1530.873" timestamp="1587544771923" />
-    <state x="618" y="221" width="424" height="491" key="FileChooserDialogImpl" timestamp="1589917475301">
+    <state x="618" y="221" width="424" height="491" key="FileChooserDialogImpl" timestamp="1590047061489">
       <screen x="70" y="27" width="1530" height="873" />
     </state>
-    <state x="618" y="221" width="424" height="491" key="FileChooserDialogImpl/70.27.1530.873@70.27.1530.873" timestamp="1589917475301" />
+    <state x="618" y="221" width="424" height="491" key="FileChooserDialogImpl/70.27.1530.873@70.27.1530.873" timestamp="1590047061489" />
     <state x="656" y="608" width="399" height="156" key="NewPhpFileDialog" timestamp="1588077677378">
       <screen x="70" y="27" width="1530" height="873" />
     </state>
@@ -139,17 +150,17 @@
       <screen x="70" y="27" width="1530" height="873" />
     </state>
     <state x="471" y="330" key="com.intellij.ide.util.TipDialog/70.27.1530.873@70.27.1530.873" timestamp="1586869620721" />
-    <state x="70" y="330" width="620" height="570" key="find.popup" timestamp="1589823828004">
+    <state x="70" y="330" width="620" height="570" key="find.popup" timestamp="1590225033907">
       <screen x="70" y="27" width="1530" height="873" />
     </state>
-    <state x="70" y="330" width="620" height="570" key="find.popup/70.27.1530.873@70.27.1530.873" timestamp="1589823828004" />
+    <state x="70" y="330" width="620" height="570" key="find.popup/70.27.1530.873@70.27.1530.873" timestamp="1590225033907" />
     <state x="464" y="293" key="run.anything.popup" timestamp="1588011748628">
       <screen x="70" y="27" width="1530" height="873" />
     </state>
     <state x="464" y="293" key="run.anything.popup/70.27.1530.873@70.27.1530.873" timestamp="1588011748628" />
-    <state x="478" y="221" width="672" height="678" key="search.everywhere.popup" timestamp="1589891669631">
+    <state x="478" y="221" width="672" height="678" key="search.everywhere.popup" timestamp="1589984516305">
       <screen x="70" y="27" width="1530" height="873" />
     </state>
-    <state x="478" y="221" width="672" height="678" key="search.everywhere.popup/70.27.1530.873@70.27.1530.873" timestamp="1589891669631" />
+    <state x="478" y="221" width="672" height="678" key="search.everywhere.popup/70.27.1530.873@70.27.1530.873" timestamp="1589984516305" />
   </component>
 </project>

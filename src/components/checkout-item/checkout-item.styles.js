@@ -36,7 +36,8 @@ export const QuontatyContnatiner = styled(TextContainer)`
     .value{
       margin: 0 10px;
     }
-    padding-left: 20px;
+    padding-left: 0px;
+  
 `;
 export const RemoveButton = styled.div`
      padding-left: 12px;

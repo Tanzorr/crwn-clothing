@@ -11,6 +11,7 @@ export const CollectionItemContainer = styled.div`
       min-width: 255px;
       margin-bottom: 20px;
       position: relative;
+      margin-right:20px;
 
      &:hover{
     .image{
